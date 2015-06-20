@@ -1,4 +1,4 @@
 language: python
 
 script:
-  - env
+  - python show_env.py
