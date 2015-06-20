@@ -1,2 +1,5 @@
+install:
+  - python --version
+
 test_script:
   - python show_env.py
