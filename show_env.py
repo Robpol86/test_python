@@ -12,4 +12,4 @@ ENV = os.environ.copy()
 for p in sorted(ENV.items()):
     print('='.join(p))
 
-print(base64.b64encode(json.dumps(ENV)))
+print(base64.b64encode(json.dumps(ENV).encode('utf-8')))
